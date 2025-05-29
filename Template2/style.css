@@ -1,0 +1,92 @@
+.font-secondary {
+    font-family: 'Pacifico', cursive;
+}
+h1,
+h2,
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+.btn {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    transition: .5s;
+}
+.hero-header {
+    background-image: url(./Images/hero.jpg);
+    background-size: cover;
+}
+.section-title::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 10px;
+    left: 50%;
+    bottom: 0;
+    margin-left: -30px;
+    background: var(--primary);
+}
+
+.section-title::after {
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 2px;
+    left: 50%;
+    bottom: 4px;
+    margin-left: -90px;
+    background: var(--primary);
+}
+
+.service::after,
+.contact::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: calc(100% - 45px);
+    top: 135px;
+    left: 0;
+    background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(./Images/service.jpg) center center no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.bg-offer {
+    background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(../img/offer.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.team-item img {
+    transition: .5s;
+}
+
+.team-item:hover img {
+    transform: scale(1.1);
+    filter: blur(5px)
+}
+
+.team-item .team-overlay {
+    transition: .5s;
+    opacity: 0;
+}
+
+.team-item:hover .team-overlay {
+    opacity: 1;
+}
+
+
+.bg-img {
+    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(../img/bg.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+h4 {
+    color: rgb(173, 109, 36);
+}
+
+.btn1 {
+    background-color:rgb(243, 163, 14) ;
+    color: white;
+}
+.test :hover{
+background-color:rgb(243, 163, 14);
+}
